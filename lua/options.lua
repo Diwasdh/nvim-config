@@ -16,3 +16,6 @@ vim.keymap.set("n", "<C-Right>", "<C-w>l", { silent = true })
 -- Save and Quit
 vim.keymap.set("n", "<C-s>", ":w<CR>", { silent = true })
 vim.keymap.set("n", "<C-q>", ":wqa<CR>", { silent = true })
+
+-- close current buffer on ctrl + w -- bufferline
+vim.keymap.set("n", "<C-w>", ":bd<CR>", { silent = true })
