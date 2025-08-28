@@ -1,0 +1,4 @@
+#gitignore -- nvim config--
+lazyvim.json
+lazy-lock.json
+
