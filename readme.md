@@ -10,6 +10,8 @@
   - `lazy.lua` — Lazy.nvim plugin manager setup
   - `lsp_core.lua` — LSP core configuration
 - `lua/plugins/` — Plugin configurations
+  - `bufferline.lua` — Buffer line setup
+  - `cmp.lua` — Autocompletion settings
   - `copilot.lua` — GitHub Copilot integration
   - `lsp_config.lua` — LSP plugin settings
   - `lualine.lua` — Statusline configuration
@@ -34,6 +36,7 @@
 - **Statusline:** Lualine for a customizable statusline
 - **Syntax Highlighting:** Treesitter for advanced highlighting
 - **Formatter/Linter:** Null-ls integration
+- **Autocompletion:** blink.cmp for intelligent code completion
 
 ## Getting Started
 

@@ -1,17 +1,20 @@
-return{
-  { "mason-org/mason.nvim", 
-    config=function() 
-      require("mason").setup() 
-    end 
+return {
+  {
+    "mason-org/mason.nvim",
+    config = function()
+      require("mason").setup()
+    end,
   },
-  { "mason-org/mason-lspconfig.nvim", 
-    config=function() 
-      require("mason-lspconfig").setup({ ensure_installed={"lua_ls","ts_ls"} })
-    end
+  {
+    "mason-org/mason-lspconfig.nvim",
+    config = function()
+      require("mason-lspconfig").setup({ ensure_installed = { "lua_ls", "ts_ls" } })
+    end,
   },
-  { "neovim/nvim-lspconfig",
-    config=function()
-    vim.keymap.set('n','<leader>ca','<cmd>lua vim.lsp.buf.code_action()<CR>',{})
-    end
-  }
+  {
+    "neovim/nvim-lspconfig",
+    config = function()
+      vim.keymap.set("n", "<leader>ca", "<cmd>lua vim.lsp.buf.code_action()<CR>", {})
+    end,
+  },
 }
