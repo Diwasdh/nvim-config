@@ -11,7 +11,6 @@ return {
             filetype = "NvimTree",
             text = "File Explorer",
             highlight = "Directory",
-            //text aign after tree setter
             text_align = "left"
           }
         }
