@@ -13,6 +13,7 @@
   - `bufferline.lua` — Buffer line setup
   - `cmp.lua` — Autocompletion settings
   - `copilot.lua` — GitHub Copilot integration
+  - `dashboard.lua` — Startup dashboard configuration
   - `lsp_config.lua` — LSP plugin settings
   - `lualine.lua` — Statusline configuration
   - `neotree.lua` — File explorer setup
@@ -37,6 +38,10 @@
 - **Syntax Highlighting:** Treesitter for advanced highlighting
 - **Formatter/Linter:** Null-ls integration
 - **Autocompletion:** blink.cmp for intelligent code completion
+- **Dashboard:** Custom startup screen
+- **Buffer Line:** Enhanced buffer management
+- **Theming:** Pre-configured colorscheme
+
 
 ## Getting Started
 
