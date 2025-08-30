@@ -47,6 +47,7 @@ return {
   commands = {
     ["editor.action.showReferences"] = function(command, ctx)
       local client = assert(vim.lsp.get_client_by_id(ctx.client_id))
+      ---@diagnostic disable-next-line: deprecated
       local file_uri, position, references = unpack(command.arguments)
 
       local quickfix_items = vim.lsp.util.locations_to_items(references, client.offset_encoding)
